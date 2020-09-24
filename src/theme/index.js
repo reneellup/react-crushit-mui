@@ -1,24 +1,24 @@
-import { colors, createMuiTheme } from "@material-ui/core";
-
+import { createMuiTheme } from "@material-ui/core";
 import shadows from "./shadows";
 import typography from "./typography";
 
 const theme = createMuiTheme({
   palette: {
-    background: {
-      dark: "#F4F6F8",
-      default: colors.common.white,
-      paper: colors.common.white,
-    },
     primary: {
-      main: colors.indigo[500],
+      light: "#50575c",
+      main: "#282e33",
+      dark: "#00030c",
+      contrastText: "#fff",
     },
     secondary: {
-      main: colors.indigo[500],
+      light: "#ff7e85",
+      main: "#ff4858",
+      dark: "#c5002f",
+      contrastText: "#000",
     },
     text: {
-      primary: colors.blueGrey[900],
-      secondary: colors.blueGrey[600],
+      primary: "#FF4858",
+      secondary: "#7d8490",
     },
   },
   shadows,

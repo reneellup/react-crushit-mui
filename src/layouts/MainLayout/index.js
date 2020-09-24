@@ -4,7 +4,7 @@ import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: theme.palette.primary.main,
     display: "flex",
     height: "100%",
     overflow: "hidden",
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flex: "1 1 auto",
     overflow: "hidden",
-    paddingTop: 64,
+    paddingTop: 0,
   },
   contentContainer: {
     display: "flex",
